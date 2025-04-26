@@ -15,10 +15,12 @@ public class Main
        c2.execute();
        //task 2
         System.out.println("TASK 2\n");
+        
         Stack stack = new Stack();
         stack.push(c1);
         stack.push(c);
         stack.pop().execute();
+        System.out.println(stack.isEmpty());
 
         Queue queue = new Queue();
         queue.push(o);
