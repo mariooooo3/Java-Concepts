@@ -29,4 +29,20 @@
 ---
 
 ## Concluzie
-**LinkedList** este, în general, mai eficient pentru implementarea cozilor și stivelor, în special pentru operațiile de eliminare (`pop` și `dequeue`).
+# 📊 LinkedList vs ArrayList
+
+## 🥇 Best Choices:
+- **Stivă (Stack)** → `ArrayList`  
+  - `push/pop`: O(1)  
+  - +Cache friendly  
+
+- **Coadă (Queue)** → `LinkedList`  
+  - `enqueue/dequeue`: O(1)  
+  - +Operații rapide ambele capete  
+
+## ⚠️ Avoid:
+- `ArrayList` pentru cozi (remove(0) e O(n))  
+- `LinkedList` pentru acces aleator (get(i) e O(n))  
+
+## 💡 Best Alternative:
+`ArrayDeque` - bun atât pentru stive cât și cozi
