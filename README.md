@@ -5,9 +5,9 @@ Acest repository conține exerciții Java ce acoperă concepte esențiale ale pr
 ## Cuprins
 
 1. [Încapsularea](1.Încapsularea/lab1Task1)
-2. [Constructori, Referințe, Static](2.Constructori, referințe, static)
-3. [Agregare și Moștenire](3.Agregare și moștenire/lab3Task1)
-4. [Polimorfism](4. Polimorfism/lab4Task1)
+2. [Constructori, Referințe, Static](2.Constructori\, referințe\, static)
+3. [Agregare și Moștenire](3.Agregare\ și\ moștenire/lab3Task1)
+4. [Polimorfism](4.\ Polimorfism/lab4Task1)
 5. [Abstractizare](5.Abstractizare)
 6. [Structuri de Date](StructuriDeDate)
 
