@@ -1,5 +1,5 @@
 
-package Design_patterns;
+package Design_patterns.Builder;
 
 public class HouseMain {
     public static void main(String[] args) {

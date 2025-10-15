@@ -1,4 +1,4 @@
-package Design_patterns;
+package Design_patterns.Builder;
 
 public class House {
     private String location;
