@@ -1,17 +1,15 @@
 package Visitor_pattern;
 
-public class Dot implements Shape {
-
-    int size;
+public class Circle implements Shape {
+    int radius;
     String color;
 
-    public Dot(int size, String color) {
-        this.size = size;
+    public Circle(int radius, String color) {
+        this.radius = radius;
         this.color = color;
     }
 
     public void accept(Visitor v) {
         v.visit(this);
     }
-
 }

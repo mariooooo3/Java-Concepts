@@ -7,6 +7,7 @@ public class Rectangle implements Shape {
     public Rectangle(int size, String color) {
         this.size = size;
         this.color = color;
+
     }
 
     public void accept(Visitor v) {
