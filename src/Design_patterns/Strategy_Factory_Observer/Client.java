@@ -6,10 +6,16 @@ import Design_patterns.Strategy_Factory_Observer.PaymentStrategy;
 
 public class Client {
     public String name;
+    public String surname;
     public int age;
 
-    public Client(String name, int age) {
+    public Client() {
+
+    }
+
+    public Client(String name, String surname, int age) {
         this.name = name;
+        this.surname = surname;
         this.age = age;
     }
 
