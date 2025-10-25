@@ -13,9 +13,12 @@ public class Student implements Comparable<Student> {
         this.average = average;
     }
 
-    public String toString()
-    {
+    public String toString() {
         return name + " " + surname + " " + id + " " + average;
+    }
+
+    public long getId() {
+        return this.id;
     }
 
     @Override
@@ -27,5 +30,21 @@ public class Student implements Comparable<Student> {
                 return this.surname.compareTo(o.surname);
         } else
             return Double.compare(this.average, o.average);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+
+        Student student = (Student) obj;
+        return id == student.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Long.hashCode(id);
     }
 }
