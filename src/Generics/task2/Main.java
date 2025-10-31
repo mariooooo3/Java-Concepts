@@ -6,53 +6,43 @@ import java.util.HashSet;
 import java.util.List;
 
 
-
-
 class Node<T extends Comparable<T>> {
 
     private T value;
     private Node<T> right;
     private Node<T> left;
 
-    public Node()
-    {
+    public Node() {
 
     }
 
-    public Node(T value, Node<T> right, Node<T> left)
-    {
+    public Node(T value, Node<T> right, Node<T> left) {
         this.value = value;
         this.right = right;
         this.left = left;
     }
 
-    public void setValue(T value)
-    {
+    public void setValue(T value) {
         this.value = value;
     }
 
-    public T getValue()
-    {
+    public T getValue() {
         return this.value;
     }
 
-    public void setRight(Node<T> right)
-    {
+    public void setRight(Node<T> right) {
         this.right = right;
     }
 
-    public void setLeft(Node<T> left)
-    {
+    public void setLeft(Node<T> left) {
         this.left = left;
     }
 
-    public Node<T> getRight()
-    {
+    public Node<T> getRight() {
         return this.right;
     }
 
-    public Node<T> getLeft()
-    {
+    public Node<T> getLeft() {
         return this.left;
     }
 }
@@ -76,8 +66,7 @@ class TreeImpl<T extends Comparable<T>> implements Tree<T> {
     public Node<T> root;
     int size = 0;
 
-    public Node<T> insert(Node<T> node, T value)
-    {
+    public Node<T> insert(Node<T> node, T value) {
         if (node == null) {
             size++;
             return new Node<>(value, null, null);

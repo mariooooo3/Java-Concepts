@@ -4,7 +4,6 @@ import java.util.*;
 import java.util.function.Supplier;
 
 
-
 class MultiMapValue<K, V> {
 
     public MultiMapValue(Map<K, V> map) {
@@ -32,7 +31,7 @@ class MultiMapValue<K, V> {
     }
 
     public V getFirst(K key) {
-        List <V> values = map.get(key);
+        List<V> values = map.get(key);
         return (values == null || values.isEmpty()) ? null : values.get(0);
     }
 

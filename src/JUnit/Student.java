@@ -26,8 +26,7 @@ public class Student {
         this.absents = absents;
     }
 
-    public int registrastionYear()
-    {
+    public int registrastionYear() {
         Random rand = new Random();
         int minYear = 1900;
         int maxYear = 2025;

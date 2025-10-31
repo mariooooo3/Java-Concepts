@@ -11,8 +11,7 @@ public class Song {
 
 
     public Song(String name, String composer, String artist,
-                int id, double duration, String genres)
-    {
+                int id, double duration, String genres) {
         this.name = name;
         this.composer = composer;
         this.artist = artist;
@@ -21,47 +20,38 @@ public class Song {
         this.genres = genres;
     }
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getName()
-    {
+    public String getName() {
         return this.name;
     }
 
-    public String toString()
-    {
+    public String toString() {
         return ("Numele melodiei este:" + this.name + ", cantata de:" + this.artist + ", compusa de:"
                 + this.composer + ", avand id-ul:" + this.id + ", durata de " + this.duration + " si genul:" + this.genres);
     }
 
-    public String getArtist()
-    {
+    public String getArtist() {
         return this.artist;
     }
 
-    public String getGenres()
-    {
+    public String getGenres() {
         return this.genres;
     }
 
-    public double getDuration()
-    {
+    public double getDuration() {
         return this.duration;
     }
 
-    public int getId()
-    {
+    public int getId() {
         return this.id;
     }
 
-    public void setGenres(String genres)
-    {
+    public void setGenres(String genres) {
         this.genres = genres;
     }
-
 
 
 }

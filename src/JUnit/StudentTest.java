@@ -39,16 +39,15 @@ public class StudentTest {
     }
 
     @Test
-    public void registrationYear()
-    {
+    public void registrationYear() {
         int y1 = s1.registrastionYear();
-        assertTrue(y1>= 1900 && y1<= 2025);
+        assertTrue(y1 >= 1900 && y1 <= 2025);
 
         int y2 = s2.registrastionYear();
-        assertTrue(y2>= 1900 && y2<= 2025);
+        assertTrue(y2 >= 1900 && y2 <= 2025);
 
         int y3 = s3.registrastionYear();
-        assertTrue(y3>= 1900 && y3<= 2025);
+        assertTrue(y3 >= 1900 && y3 <= 2025);
     }
 
 
