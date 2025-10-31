@@ -10,7 +10,7 @@ Acest proiect conține exemple și exerciții pentru concepte fundamentale de Pr
 - [Aggregation and Inheritance](src/Aggregation_and_Inheritance)  
   Exemple despre agregare, moștenire și relații între clase.
 
-- [Collections](src/Collections)
+- [Collections](src/Collections)  
   Exemple despre colecții Java, inclusiv List, Set, Map, Queue și modul de utilizare a acestora.
 
 - [Constructors, References & Static](src/Constructors_references_static)  
