@@ -10,6 +10,9 @@ Acest proiect conține exemple și exerciții pentru concepte fundamentale de Pr
 - [Aggregation and Inheritance](src/Aggregation_and_Inheritance)  
   Exemple despre agregare, moștenire și relații între clase.
 
+- [Collections](src/Collections)
+  Exemple despre colecții Java, inclusiv List, Set, Map, Queue și modul de utilizare a acestora.
+
 - [Constructors, References & Static](src/Constructors_references_static)  
   Exemple despre constructori, referințe și membri statici.
 
@@ -24,6 +27,9 @@ Acest proiect conține exemple și exerciții pentru concepte fundamentale de Pr
 
 - [Generics](src/Generics)  
   Exemple despre tipuri generice și utilizarea lor în colecții și clase.
+
+- [JavaFeatures](src/JavaFeatures)  
+  Exemple despre caracteristici moderne ale limbajului Java, cum ar fi lambda expressions, stream API, var, switch expressions, record-uri și pattern matching.
 
 - [JUnit](src/JUnit)  
   Exemple despre testarea unitară folosind JUnit.
