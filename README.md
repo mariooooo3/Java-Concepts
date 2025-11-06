@@ -25,6 +25,9 @@ Acest proiect conține exemple și exerciții pentru concepte fundamentale de Pr
 - [Encapsulation](src/Encapsulation)  
   Exemple despre încapsulare și protejarea datelor.
 
+- [Exceptions](src/Exceptions)  
+  Exemple despre tipuri de exceptii si Chain-of-responsibility Pattern
+
 - [Generics](src/Generics)  
   Exemple despre tipuri generice și utilizarea lor în colecții și clase.
 
