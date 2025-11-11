@@ -53,5 +53,8 @@ public class Song {
         this.genres = genres;
     }
 
+    public String getComposer() {
+        return this.composer;
+    }
 
 }

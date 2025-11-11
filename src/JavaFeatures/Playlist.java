@@ -57,8 +57,8 @@ public class Playlist {
 
         Stream<Stream<Song>> playlistStream5 = Stream.of(playlistStream3, playlistStream4);
 
-        System.out.println("\n1.Playlist Filter By Length");
-        pl.songs.stream().filter(playlist -> playlist.artist.length() > 10)
+        System.out.println("\n1.Playlist Filter By Composer");
+        pl.songs.stream().filter(playlist -> playlist.getComposer().equals("Smiley"))
                 .forEach(System.out::println);
 
         System.out.println("\n2.Lowercase -> Uppercase Name");
@@ -87,7 +87,7 @@ public class Playlist {
         System.out.println("Durata totala a albumului este:" + duration + " de minute");
 
         System.out.println("\n6.Sorted By ID");
-        pl.songs.stream().filter(id -> id.getId() > 20)
+        pl.songs.stream().sorted(Comparator.comparing(Song::getId))
                 .forEach(System.out::println);
 
         System.out.println("\n7.Sorted By Artist");
