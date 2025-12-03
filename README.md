@@ -1,44 +1,23 @@
-# Proiect Java - Concepe OOP
+# 📚 Java Project - OOP Concepts
 
-Acest proiect conține exemple și exerciții pentru concepte fundamentale de Programare Orientată pe Obiecte (OOP) în Java. Fiecare modul este organizat într-un director separat în `src`.
+This repository contains examples and exercises for fundamental **Object-Oriented Programming (OOP)** concepts in Java. Each module is organized into a separate directory within `src`.
 
-## Structura proiectului
+## 🗂️ Project Structure (OOP Modules)
 
-- [Abstraction](src/Abstraction)  
-  Exemple despre abstractizare și clase abstracte.
+Click on the link for each module to navigate directly to the respective directory.
 
-- [Aggregation and Inheritance](src/Aggregation_and_Inheritance)  
-  Exemple despre agregare, moștenire și relații între clase.
-
-- [Collections](src/Collections)  
-  Exemple despre colecții Java, inclusiv List, Set, Map, Queue și modul de utilizare a acestora.
-
-- [Constructors, References & Static](src/Constructors_references_static)  
-  Exemple despre constructori, referințe și membri statici.
-
-- [Data Structures](src/DataStructures)  
-  Exemple despre structuri de date fundamentale în Java (liste, seturi, hărți).
-
-- [Design Patterns](src/Design_patterns)  
-  Exemple despre pattern-uri de proiectare și utilizarea acestora.
-
-- [Encapsulation](src/Encapsulation)  
-  Exemple despre încapsulare și protejarea datelor.
-
-- [Exceptions](src/Exceptions)  
-  Exemple despre tipuri de exceptii si Chain-of-responsibility Pattern
-
-- [Generics](src/Generics)  
-  Exemple despre tipuri generice și utilizarea lor în colecții și clase.
-
-- [JavaFeatures](src/JavaFeatures)  
-  Exemple despre caracteristici moderne ale limbajului Java, cum ar fi lambda expressions, stream API, var, switch expressions, record-uri și pattern matching.
-
-- [JUnit](src/JUnit)  
-  Exemple despre testarea unitară folosind JUnit.
-
-- [Polymorphism](src/Polymorphism)  
-  Exemple despre polimorfism, suprascrierea și suprasarcina metodelor.
-
-- [Visitor Pattern](src/Visitor_pattern)  
-  Exemple despre pattern-ul Visitor și utilizarea acestuia.
+| No. | Module Title | Link & Description |
+| :---: | :--- | :--- |
+| **1** | Abstraction | [Go to Folder](src/Abstraction) - Examples of abstraction and abstract classes. |
+| **2** | Aggregation and Inheritance | [Go to Folder](src/Aggregation_and_Inheritance) - Examples of aggregation, inheritance, and relationships between classes. |
+| **3** | Collections | [Go to Folder](src/Collections) - Examples of Java collections, including List, Set, Map, Queue, and how to use them. |
+| **4** | Constructors, References & Static | [Go to Folder](src/Constructors_references_static) - Examples of constructors, references, and static members. |
+| **5** | Data Structures | [Go to Folder](src/DataStructures) - Examples of fundamental data structures in Java (lists, sets, maps). |
+| **6** | Design Patterns | [Go to Folder](src/Design_patterns) - Examples of design patterns and their utilization. |
+| **7** | Encapsulation | [Go to Folder](src/Encapsulation) - Examples of encapsulation and data protection. |
+| **8** | Exceptions | [Go to Folder](src/Exceptions) - Examples of exception types and the Chain-of-responsibility Pattern. |
+| **9** | Generics | [Go to Folder](src/Generics) - Examples of generic types and their use in collections and classes. |
+| **10** | Java Features | [Go to Folder](src/JavaFeatures) - Examples of modern Java language features, such as lambda expressions, Stream API, var, switch expressions, records, and pattern matching. |
+| **11** | JUnit | [Go to Folder](src/JUnit) - Examples of unit testing using JUnit. |
+| **12** | Polymorphism | [Go to Folder](src/Polymorphism) - Examples of polymorphism, method overriding, and method overloading. |
+| **13** | Visitor Pattern | [Go to Folder](src/Visitor_pattern) - Examples of the Visitor pattern and its utilization. |
